@@ -55,7 +55,7 @@ Of 1,000 classified reviews, **338 are negative**. Their topic mix:
 | price_value | 9 | 2.7% | 13.5 | 3.78 |
 | other | 6 | 1.8% | 32.9 | 1.33 |
 
-**Delivery is the largest single source of dissatisfaction.** Reviews the LLM flagged as delivery complaints took on average **26.0 days** to deliver vs **13.2 days** across the sample, and average **1.66 stars** vs **3.69** — the text agrees with the structured r = -0.334 delivery-vs-score signal.
+**Product quality is the largest negative-review topic, while delivery is the most operationally measurable satisfaction risk signal.** Reviews the LLM flagged as delivery complaints took on average **26.0 days** to deliver vs **13.2 days** across the sample, and averaged **1.66 stars** vs **3.69** — aligning the review text with the structured delivery-vs-score signal, while avoiding a causal claim.
 
 ## Limitations
 
