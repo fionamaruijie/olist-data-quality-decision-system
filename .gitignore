@@ -1,0 +1,27 @@
+# Raw and regenerated row-level data
+data/raw/*
+!data/raw/.gitkeep
+
+data/cleaned/*
+!data/cleaned/.gitkeep
+
+# Keep dashboard-ready aggregate outputs
+!data/output/
+!data/output/*.csv
+
+# Mac system files
+.DS_Store
+__MACOSX/
+
+# Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Environment files
+.env
+.venv/
+venv/
+
+# Local archives
+*.zip
