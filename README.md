@@ -9,15 +9,15 @@ An end-to-end business-analytics project on the **Olist Brazilian e-commerce** d
 
 Where should the Olist marketplace focus to protect revenue and customer satisfaction — and is the underlying data trustworthy enough to act on those numbers? Specifically: (a) what is associated with low review scores, (b) where revenue concentrates, (c) how the marketplace retains customers, and (d) which headline numbers change once the data is decision-ready.
 
-## Headline results (all verified against the raw data)
+## Headline Results
 
 | Question | Finding |
 |---|---|
-| What is associated with low scores? | **Delivery time** — review score falls monotonically as delivery slows (r = **−0.33**): ~11 days @ 5★ → ~21 days @ 1★ |
-| Where does revenue concentrate? | **18 of 74** categories = 80% of revenue; **São Paulo = 38%** of revenue (top 3 states = 63%) |
-| How well does it retain? | **Only 3.12%** of customers reorder — an acquisition engine, not a retention engine |
-| What changes after cleaning? | A naive join inflates product revenue **+4.5%** and **cash collected +27%**; corrected GMV = **R$13.59M**, net revenue = **R$13.22M** |
-| What do customers complain about? | Negative reviews: **product quality 52%, delivery 38%**; delivery complaints map to genuinely slow orders (**26 days** vs 13 baseline) |
+| What is associated with low scores? | Delivery time is strongly associated with lower review scores: average delivery time rises from about 11 days for 5-star reviews to about 21 days for 1-star reviews. |
+| Where does revenue concentrate? | 18 of 74 product categories generate about 80% of revenue; São Paulo contributes about 38% of revenue; the top 3 states contribute about 63%. |
+| How well does the marketplace retain customers? | Only 3.12% of customers reorder, suggesting the marketplace behaves more like an acquisition-driven system than a retention-driven system. |
+| What changes after cleaning? | A naive multi-table join inflates product revenue by about 4.5% and cash collected by about 27%; the corrected GMV is R$13.59M and net revenue is R$13.22M. |
+| What do customers complain about? | Negative reviews are concentrated around product quality and delivery issues; delivery-related complaints are associated with substantially slower orders. |
 
 ## Data-quality framework — the three engineering hazards
 
