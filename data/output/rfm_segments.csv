@@ -1,7 +1,0 @@
-segment,customers,avg_monetary,avg_frequency,avg_recency,pct_customers
-Dormant,23293,71.12,1.0,446.0,24.24
-New / recent,22261,72.42,1.0,138.7,23.17
-Mid one-time,18578,150.6,1.0,269.8,19.33
-New high-value,14876,302.55,1.0,140.7,15.48
-Dormant high-value,14091,309.01,1.0,444.6,14.66
-Repeat (Loyal/Champion),2997,307.66,2.116,268.2,3.12

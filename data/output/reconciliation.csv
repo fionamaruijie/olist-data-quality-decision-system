@@ -1,5 +1,0 @@
-metric,naive_raw,decision_ready,why,inflation_pct
-Join rows used for revenue,117601.0,98666.0,orders x items x payments explodes; correct view is one row per order,19.19
-"Product revenue (sum price, BRL)",14209115.34,13591643.7,price repeated once per payment row in the naive join,4.54
-"Cash collected (sum payment_value, BRL)",20308134.71,16008872.12,payment_value repeated once per item row,26.86
-AOV (BRL per order),144.01,137.75,naive AOV inflated by the same double-count,4.54
