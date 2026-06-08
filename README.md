@@ -55,7 +55,6 @@ ai/           labels + review_classification.csv + validation_report.md
 reports/
   Olist_Analyst_Report.docx    the full analyst report (embedded figures + SAS framework + analysis)
   charts/                      8 figure PNGs
-  linkedin_caption.md
 ```
 
 ## Data & license
